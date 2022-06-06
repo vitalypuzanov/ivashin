@@ -1,0 +1,54 @@
+@import url(./assets/font/iconsfont.css);
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  background: #fefefe;
+  font-family: -apple-system, BlinkMacSystemFont, 'Roboto', 'Segoe UI', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1,h2,h3,h4,h5,h6 {
+  margin: 0;
+  padding: 0;
+  color: rgb(255, 255, 255);
+  
+}
+
+#root {
+  
+}
+
+.app-title {
+  text-align: center;
+  padding-top: 20px;
+  margin-bottom: 20px;
+}
+.App {
+  width: 100vw;
+  height: 100vh;
+  background-color: #43afe1;
+}
+
+.todosAndTags{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 30px 10px;
+}
+
+.DraftEditor-root {
+  padding: 5px;
+  border-top-left-radius: 3px;
+  border-bottom-left-radius: 3px;
+  border: 0;
+  border-bottom: 1px solid #fff;
+  font-size: 18px;
+  outline: none;
+  background: #fff;
+  margin: 20px;
+  white-space: pre-wrap;
+}
